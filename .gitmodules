@@ -1,0 +1,3 @@
+[submodule "stpl"]
+	path = stpl
+	url = https://github.com/tyolab/stpl.git

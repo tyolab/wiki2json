@@ -73,7 +73,11 @@ string get_entity_info(int group, int type) {
 }
 
 int main(int argc, char** argv) {
-    if (argc == 2) {
+    if (argc == 3 && !strcmp(argv[2], "--html")) {    
+        // convert text to html rather than json
+        
+    }
+    else if (argc == 2) {
         
 		string file_name = argv[ 1 ];
         std::cout
@@ -104,7 +108,7 @@ int main(int argc, char** argv) {
     }
     else {
         std::cout
-            << "Usage: " << argv[0] << " /a/path/to/wiki.txt"
+            << "Usage: " << argv[0] << " /a/path/to/wiki.txt [--html]"
             // << std::endl
             // << '\t'
             // << argv[ 0 ]

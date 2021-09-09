@@ -91,6 +91,7 @@ int main(int argc, char** argv) {
             //std::cout << "Node Info: " << get_entity_info((*it)->get_group(), (*it)->get_type()) << std::endl;
             // std::cout << "Node Type: " << (*it)->get_type() << std::endl;
             //std::cout << "Node Content: " << std::endl;
+            std::cout << '(' << (*it)->get_id() << ") ";
             std::cout << (*it)->to_html();
             std::cout << std::endl;
         }

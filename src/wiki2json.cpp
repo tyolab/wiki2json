@@ -73,38 +73,33 @@ string get_entity_info(int group, int type) {
 }
 
 int main(int argc, char** argv) {
-    if (argc == 3 && !strcmp(argv[2], "--html")) {    
-        // convert text to html rather than json
-        
-    }
-    else if (argc == 2) {
-        
-		string file_name = argv[ 1 ];
+    if (argc > 1) {
+        string file_name = argv[ 1 ];
         std::cout
             << "Parsing "
             << file_name << endl;
-		FileStream<> file_stream(file_name.c_str());
+        FileStream<> file_stream(file_name.c_str());
 
-		parser_type parser(file_stream.begin(), file_stream.end());
+        parser_type parser(file_stream.begin(), file_stream.end());
         parser_type::document_type& doc = parser.parse();
         //std::vector<parse_type::document_type::entity_type > nodes = doc->get_nodes();
-        parser_type::document_type::container_type& nodes = doc.children();
-        std::cout << "Total nodes: " << doc.size() << std::endl;
+        // parser_type::document_type::container_type& nodes = doc.children();
+        std::cerr << "Total nodes: " << doc.size() << std::endl;
 
-        for (auto it = nodes.begin(); it != nodes.end(); ++it) {
-            //std::cout << "Node Info: " << get_entity_info((*it)->get_group(), (*it)->get_type()) << std::endl;
-            // std::cout << "Node Type: " << (*it)->get_type() << std::endl;
-            //std::cout << "Node Content: " << std::endl;
-            std::cout << '(' << (*it)->get_id() << ") ";
-            std::cout << (*it)->to_html();
-            std::cout << std::endl;
+        if (argc == 3 && !strcmp(argv[2], "--html")) {    
+            // convert text to html rather than json
+            std::cout << doc.to_html();
         }
-        
-		// typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::element_type element_type;
-		// typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::tree_type tree_type;
-		// tree_type tree = parser.parse_tree();			
-		// tree_type::iterator	iner_it = tree.begin();
+        else if (argc == 2) {
+            
+            std::cout << doc.to_json();
+            
+            // typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::element_type element_type;
+            // typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::tree_type tree_type;
+            // tree_type tree = parser.parse_tree();			
+            // tree_type::iterator	iner_it = tree.begin();
 
+        }
     }
     else {
         std::cout

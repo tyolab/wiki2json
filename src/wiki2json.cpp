@@ -75,7 +75,7 @@ string get_entity_info(int group, int type) {
 int main(int argc, char** argv) {
     if (argc > 1) {
         string file_name = argv[ 1 ];
-        std::cout
+        std::cerr
             << "Parsing "
             << file_name << endl;
         FileStream<> file_stream(file_name.c_str());

@@ -32,7 +32,9 @@ using namespace stpl::WIKI;
 typedef WIKI::WikiParser<icstring, FileStream<>::iterator> parser_type;
 int Atom::counter = 0;
 
-// static std::map<int, std::string> groups;
+string WikiEntityVariables::host = "localhost";
+string WikiEntityVariables::protocol = "http";
+string WikiEntityVariables::path = "/";
 
 string get_entity_info(int group, int type) {
     string value;
@@ -72,9 +74,59 @@ string get_entity_info(int group, int type) {
     return value;
 }
 
+void print_unknow_option(const char *unknown) {
+    std::cout << "Unknown option: " << unknown << std::endl;
+}
+
+void print_usage(const char *program) {
+        std::cout
+            << "Usage: " << program << " /a/path/to/wiki.txt [--html] [--protocol http] [--host localhost] [--path /]"
+            << std::endl
+            ;
+}
+
 int main(int argc, char** argv) {
     if (argc > 1) {
-        string file_name = argv[ 1 ];
+        string file_name = argv[1];
+        bool to_html = false;
+
+        const char *unknown = NULL;
+        for (int i = 2; i < argc; ++i) {
+            const char *cmd = argv[i];
+            int len = strlen(cmd);
+            if (len < 2 || (cmd[0] == '-' && cmd[1] != '-')) {
+                unknown = cmd;
+                break;
+            }
+
+            if (!strcmp(argv[i], "--html")) {
+                to_html = true;
+            }
+            else if (!strcmp(argv[i], "--protocol")) {
+                ++i;
+                if (i < argc)
+                    WikiEntityVariables::protocol = argv[i];
+            }
+            else if (!strcmp(argv[i], "--host")) {
+                ++i;
+                if (i < argc)
+                    WikiEntityVariables::host = argv[i];                
+            }            
+            else if (!strcmp(argv[i], "--path")) {
+                ++i;
+                if (i < argc)
+                    WikiEntityVariables::path = argv[i];                
+            }
+            else
+                unknown = cmd;
+        }
+
+        if (unknown) {
+            print_unknow_option(unknown);
+            print_usage(argv[0]);
+            exit(-1);
+        }
+
         std::cerr
             << "Parsing "
             << file_name << endl;
@@ -82,34 +134,20 @@ int main(int argc, char** argv) {
 
         parser_type parser(file_stream.begin(), file_stream.end());
         parser_type::document_type& doc = parser.parse();
-        //std::vector<parse_type::document_type::entity_type > nodes = doc->get_nodes();
-        // parser_type::document_type::container_type& nodes = doc.children();
+
         std::cerr << "Total nodes: " << doc.size() << std::endl;
 
-        if (argc == 3 && !strcmp(argv[2], "--html")) {    
+        if (to_html) {    
             // convert text to html rather than json
             std::cout << doc.to_html();
         }
         else if (argc == 2) {
             
             std::cout << doc.to_json();
-            
-            // typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::element_type element_type;
-            // typedef WIKI::WikiParser<icstring, FileStream<>::iterator>::tree_type tree_type;
-            // tree_type tree = parser.parse_tree();			
-            // tree_type::iterator	iner_it = tree.begin();
-
         }
     }
     else {
-        std::cout
-            << "Usage: " << argv[0] << " /a/path/to/wiki.txt [--html]"
-            // << std::endl
-            // << '\t'
-            // << argv[ 0 ]
-            // << " example.html"
-            << std::endl
-            ;
+        print_usage(argv[0]);
 
         return -1;
 	}

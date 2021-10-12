@@ -6,6 +6,8 @@ LINE = {(TEXT | LINK | TEMPLATE)+}
 LAYOUT = {(LAYOUT | LINE)+}
 TEMPLATE = ((NAME) | (VALUE))+
 
+LISTITEM = {(ENTITY)+}
+
 ## Conversion
 ### Converting template to html
 When a template is inside a layout or a text or a link or a value, it is meant to be displayed. 

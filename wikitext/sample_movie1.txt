@@ -1,5 +1,28 @@
-{{Short description|Film series based on the books by James Dashner}}
+{| class="wikitable plainrowheaders" width:100%;"
+|-
+! Title
+! U.S. release date
+! Composer(s)
+! Label
+|-
+| The Maze Runner: Original Motion Picture Soundtrack<ref>{{cite web|url=https://itunes.apple.com/us/album/the-maze-runner-original-motion-picture-soundtrack/id910433875 |title=The Maze Runner (Original Motion Picture Soundtrack) |publisher=Apple Music |access-date=September 26, 2017}}</ref>
+| {{Start date|2014|9|12}}
+| rowspan="3" | [[John Paesano]]
+| rowspan="3" | [[Sony Classical]]
+|-
+| Maze Runner: The Scorch Trials: Original Motion Picture Soundtrack<ref>{{cite web|url=https://itunes.apple.com/in/album/maze-runner-scorch-trials-original-motion-picture-soundtrack/id1035392221 |title=Maze Runner: The Scorch Trials (Original Motion Picture Soundtrack) |publisher=Apple Music |access-date=September 26, 2017}}</ref>
+| {{Start date|2015|9|11}}
+|-
+| Maze Runner: The Death Cure: Original Motion Picture Soundtrack<ref>{{cite web|url=https://itunes.apple.com/in/album/maze-runner-death-cure-original-motion-picture-soundtrack/1336509954 |title=Maze Runner: The Death Cure (Original Motion Picture Soundtrack) |publisher=Apple Music |access-date=January 26, 2018}}</ref>
+| {{Start date|2018|1|26}}
+|}
+
 {{Infobox film
+| studio      = {{Plain list|
+* [[Gotham Group]]
+* [[Temple Hill Entertainment]]
+* [[TSG Entertainment]] (1-2)
+* Oddball Entertainment}} (3)
 | name        = Maze Runner
 | director    = [[Wes Ball]]
 | producer    = {{Plain list|
@@ -18,11 +41,6 @@
 * [[Patricia Clarkson]]
 * }}
 | music       = [[John Paesano]]
-| studio      = {{Plain list|
-* [[Gotham Group]]
-* [[Temple Hill Entertainment]]
-* [[TSG Entertainment]] (1-2)
-* Oddball Entertainment}} (3)
 | distributor = [[20th Century Fox]]
 | runtime     = {{small|'''Total (3 films):'''}}<br>386 minutes
 | country     = United States

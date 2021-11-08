@@ -1,0 +1,303 @@
+{{Short description|Relativistic wave equation in quantum mechanics}}
+{{Quantum mechanics|cTopic=Equations}}
+The '''Klein–Gordon equation''' ('''Klein–Fock–Gordon equation''' or sometimes '''Klein–Gordon–Fock equation''') is a [[relativistic wave equation]], related to the [[Schrödinger equation]]. It is second-order in space and time and manifestly [[Lorentz covariance|Lorentz-covariant]]. It is a quantized version of the relativistic [[energy–momentum relation]]. Its solutions include a [[scalar field|quantum scalar or pseudoscalar field]], a field whose quanta are spinless particles. Its theoretical relevance is similar to that of the [[Dirac equation]].<ref>{{harvnb|Gross|1993}}.</ref> Electromagnetic interactions can be incorporated, forming the topic of [[scalar electrodynamics]], but because common spinless particles like the [[pion]]s are unstable and also experience the strong interaction (with unknown interaction term in the [[Hamiltonian (quantum mechanics)|Hamiltonian]],<ref>{{harvnb|Greiner|Müller|1994}}.</ref>) the practical utility is limited.
+
+The equation can be put into the form of a Schrödinger equation. In this form it is expressed as two coupled differential equations, each of first order in time.<ref name=":0" /> The solutions have two components, reflecting the charge degree of freedom in relativity.<ref name=":0">{{harvnb|Greiner|2000|loc=Ch. 1}}.</ref><ref>{{harvnb|Feshbach|Villars|1958}}.</ref> It admits a conserved quantity, but this is not positive definite. The wave function cannot therefore be interpreted as a [[probability amplitude]]. The conserved quantity is instead interpreted as [[electric charge]], and the norm squared of the wave function is interpreted as a [[charge density]]. The equation describes all spinless particles with positive, negative, and zero charge.
+
+Any solution of the free Dirac equation is, for each of its four components, a solution of the free Klein–Gordon equation. The Klein–Gordon equation does not form the basis of a consistent quantum relativistic ''one-particle'' theory. There is no known such theory for particles of any spin. For full reconciliation of quantum mechanics with special relativity, [[quantum field theory]] is needed, in which the Klein–Gordon equation reemerges as the equation obeyed by the components of all free quantum fields.<ref group=nb>[[Steven Weinberg]] makes a point about this. He leaves out the treatment of relativistic wave mechanics altogether in his otherwise complete introduction to modern applications of quantum mechanics, explaining: "It seems to me that the way this is usually presented in books on quantum mechanics is profoundly misleading." (From the preface in ''Lectures on Quantum Mechanics'', referring to treatments of the Dirac equation in its original flavor.)
+<br/>
+Others, like [[Walter Greiner]] does in his series on theoretical physics, give a full account of the historical development and view of [[relativistic quantum mechanics]] before they get to the modern interpretation, with the rationale that it is highly desirable or even necessary from a pedagogical point of view to take the long route.</ref> In quantum field theory, the solutions of the free (noninteracting) versions of the original equations still play a role. They are needed to build the Hilbert space ([[Fock space]]) and to express quantum fields by using complete sets (spanning sets of Hilbert space) of wave functions.
+
+==Statement==
+The Klein-Gordon equation can be written in different ways. The equation itself usually refers to the position space form, where it can be written in terms of separated space and time components <math>(t, \mathbf{x}) </math> or by combining them into a [[four-vector]] <math>x = (c t, \mathbf{x}) </math>. By [[Fourier transform|Fourier transforming]] the field into momentum space, the solution is usually written in terms of a superposition of [[Plane wave|plane waves]] whose energy and momentum obey the energy-momentum [[dispersion relation]] from [[special relativity]]. Here, the Klein-Gordon equation is given for both of the two common [[metric signature]] conventions <math>\eta_{\mu \nu} = \text{diag}(\pm 1, \mp 1, \mp 1, \mp 1) </math>.
+{| class="wikitable"
+|+Klein-Gordon equation in normal units with metric signature <math>\eta_{\mu \nu} = \text{diag}(\pm 1, \mp 1, \mp 1, \mp 1) </math>
+!
+!Position space
+<math>x = (ct, \mathbf{x}) </math>
+!Fourier transformation
+<math>\omega = E / \hbar
+, \quad
+\mathbf{k} = \mathbf{p} / \hbar </math>
+!Momentum space 
+<math>p = (E/c, \mathbf{p}) </math>
+|-
+!Separated 
+time and space
+|<math>\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi(t, \mathbf{x}) = 0</math>
+|<math>\psi(t, \mathbf{x}) = 
+\int \frac{\mathrm{d} \omega}{2 \pi \hbar}
+\int \frac{\mathrm{d}^3 k}{(2 \pi \hbar)^3} \, 
+e^{\mp i(\omega t - \mathbf{k} \cdot \mathbf{x})} \psi(\omega, \mathbf{k}) </math>
+|<math>E^2 = \mathbf{p}^2 c^2 + m^2 c^4</math>
+|-
+!Four-vector form
+|<math>(\Box + \mu^2) \psi(x) = 0
+, \quad
+\mu = m c / \hbar </math>
+|<math>\psi(x) = \int \frac{\mathrm{d}^4 p}{(2 \pi \hbar)^4} e^{-i p \cdot x / \hbar} \psi(p)</math>
+|<math>p^2 = \pm m^2 c^2</math>
+|}
+Here, <math>\Box = \pm \eta^{\mu \nu} \partial_\mu \partial_\nu </math> is the [[d'Alembert operator]] and <math>\nabla^2 </math> is the [[Laplace operator]]. The [[speed of light]] <math>c </math> and [[Planck constant]] <math>\hbar </math> is often seen to clutter the equations, so they are therefore often expressed in [[natural units]] where <math>c = \hbar = 1 </math>.
+{| class="wikitable"
+|+Klein-Gordon equation in natural units with metric signature <math>\eta_{\mu \nu} = \text{diag}(\pm 1, \mp 1, \mp 1, \mp 1) </math>
+!
+!Position space
+<math>x = (t, \mathbf{x}) </math>
+!Fourier transformation
+<math>\omega = E
+, \quad
+\mathbf{k} = \mathbf{p} </math>
+!Momentum space 
+<math>p = (E, \mathbf{p}) </math>
+|-
+!Separated 
+time and space
+|<math>\left( \partial_t^2 - \nabla^2 + m^2 \right) \psi(t, \mathbf{x}) = 0</math>
+|<math>\psi(t, \mathbf{x}) = 
+\int \frac{\mathrm{d} \omega }{2\pi}
+\int \frac{\mathrm{d}^3 k}{(2\pi)^3}
+e^{\mp i(\omega t - \mathbf{k} \cdot \mathbf{x})} \psi(\omega, \mathbf{k}) </math>
+|<math>E^2 = \mathbf{p}^2 + m^2</math>
+|-
+!Four-vector form
+|<math>(\Box + m^2) \psi(x) = 0 </math>
+|<math>\psi(x) = \int \frac{\mathrm{d}^4p}{(2\pi)^4} e^{-i p \cdot x} \psi(p)</math>
+|<math>p^2 = \pm m^2</math>
+|}
+Unlike the Schrödinger equation, the Klein–Gordon equation admits two values of {{mvar|ω}} for each {{mvar|k}}: one positive and one negative. Only by separating out the positive and negative frequency parts does one obtain an equation describing a relativistic wavefunction.  For the time-independent case, the Klein–Gordon equation becomes
+: <math>\left[ \nabla^2 - \frac{m^2 c^2}{\hbar^2} \right] \psi(\mathbf{r}) = 0,</math>
+which is formally the same as the homogeneous [[screened Poisson equation]].
+
+== Solution for free particle ==
+Here, the Klein-Gordon equation in natural units, <math>(\Box + m^2) \psi(x) = 0</math>, with the metric signature <math>\eta_{\mu \nu} = \text{diag}(+1, -1, -1, -1)</math> is solved by Fourier transformation. Inserting the Fourier transformation<math display="block">\psi(x) = \int \frac{\mathrm{d}^4 p}{(2\pi)^4} e^{- i p \cdot x} \psi(p)</math>and using [[Orthogonal functions|orthogonality]] of the complex exponentials gives the dispersion relation<math display="block">p^2 = (p^0)^2 - \mathbf{p}^2 = m^2</math>This restricts the momenta to those that lie [[On shell and off shell|on shell]], giving positive and negative energy solutions<math display="block">p^0 = \pm E(\mathbf{p})
+\quad \text{where} \quad
+E(\mathbf{p}) = \sqrt{\mathbf{p}^2 + m^2}
+.</math>For a new set of constants <math>C(p)</math>, the solution then becomes<math display="block">\psi(x) = \int \frac{\mathrm{d}^4 p}{(2\pi)^4} e^{i p \cdot x} C(p) \delta((p^0)^2-E(\mathbf{p})^2)
+.</math>It is common to handle the positive and negative energy solutions by separating out the negative energies and work only with positive <math>p^0</math>:<math display="block">\begin{align}
+\psi(x) =&           \int \frac{\mathrm{d}^4 p}{(2\pi)^4} \delta((p^0)^2-E(\mathbf{p})^2) \left( A(p) e^{-i p^0 x^0 + i p^i x^i} + B(p) e^{+i p^0 x^0 + i p^i x^i} \right) \theta(p^0) \\
+        =&           \int \frac{\mathrm{d}^4 p}{(2\pi)^4} \delta((p^0)^2-E(\mathbf{p})^2) \left( A(p) e^{-i p^0 x^0 + i p^i x^i} + B(-p) e^{+i p^0 x^0 - i p^i x^i} \right) \theta(p^0) \\
+        \rightarrow& \int \frac{\mathrm{d}^4 p}{(2\pi)^4} \delta((p^0)^2-E(\mathbf{p})^2) \left( A(p) e^{-i p \cdot x} + B(p) e^{+i p \cdot x} \right) \theta(p^0) \\
+\end{align}</math>In the last step, <math>B(p) \rightarrow B(-p)</math> was renamed. Now we can perform the <math>p^0</math>-integration, picking up the positive frequency part from the delta function only:
+
+<math>\begin{align}
+\psi(x) &= \int \frac{\mathrm{d}^4 p}{(2\pi)^4} \frac{\delta(p^0-E(\mathbf{p}))}{2 E(\mathbf{p})} \left( A(p) e^{-i p \cdot x} + B(p) e^{+i p \cdot x} \right) \theta(p^0) \\
+        &= \int \left. \frac{\mathrm{d}^3 p}{(2\pi)^3} \frac{1}{2 E(\mathbf{p})} \left( A(\mathbf{p}) e^{-i p \cdot x} + B(\mathbf{p}) e^{+i p \cdot x} \right) \right|_{p^0 = +E(\mathbf{p})}.
+\end{align}</math>
+
+This is commonly taken as a general solution to the Klein-Gordon equation. Note that because the initial Fourier transformation contained Lorentz invariant quantities like <math>p \cdot x = p_\mu x^\mu</math> only, the last expression is also a Lorentz invariant solution to the Klein-Gordon equation. If one does not require Lorentz invariance, one can absorb the <math>1 / 2 E(\mathbf{p})</math>-factor into the coefficients <math>A(p)</math> and <math>B(p)</math>.
+
+==History==
+The equation was named after the physicists [[Oskar Klein]] and [[Walter Gordon (physicist)|Walter Gordon]], who in 1926 proposed that it describes relativistic electrons. Other authors making similar claims in that same year were [[Vladimir Fock]], Johann Kudar, [[Théophile de Donder]] and [[Frans-H. van den Dungen]], and [[Louis de Broglie]]. Although it turned out that modeling the electron's spin required the [[Dirac equation]], the Klein–Gordon equation correctly describes the spinless relativistic [[composite particle]]s, like the [[pion]]. On 4 July 2012, European Organization for Nuclear Research [[CERN]] announced the discovery of the [[Higgs boson]]. Since the [[Higgs boson]] is a spin-zero particle, it is the first observed ostensibly  [[elementary particle]] to be described by the Klein–Gordon equation. Further experimentation and analysis is required to discern whether the [[Higgs boson]] observed is that of the [[Standard Model]] or a more exotic, possibly composite, form.
+
+The Klein–Gordon equation was first considered as a quantum wave equation by [[Erwin Schrödinger|Schrödinger]] in his search for an equation describing [[de Broglie wave]]s. The equation is found in his notebooks from late 1925, and he appears to have prepared a manuscript applying it to the hydrogen atom. Yet, because it fails to take into account the electron's spin, the equation predicts the hydrogen atom's fine structure incorrectly, including overestimating the overall magnitude of the splitting pattern by a factor of {{math|{{sfrac|4''n''|2''n'' − 1}}}} for the {{math|''n''}}-th energy level. The Dirac equation relativistic spectrum is, however, easily recovered if the orbital-momentum quantum number {{mvar|l}} is replaced by total angular-momentum quantum number {{mvar|j}}.<ref name="Itzykson&Zuber">See {{cite book |first1=C. |last1=Itzykson |first2=J.-B. |last2=Zuber |title=Quantum Field Theory |url=https://archive.org/details/quantumfieldtheo0000itzy |url-access=registration |publisher=McGraw-Hill |year=1985 |pages=[https://archive.org/details/quantumfieldtheo0000itzy/page/73 73–74] |isbn=0-07-032071-3 }} Eq. 2.87 is identical to eq. 2.86, except that it features {{mvar|j}} instead of {{mvar|l}}.</ref> In January 1926, Schrödinger submitted for publication instead ''his'' equation, a non-relativistic approximation that predicts the Bohr energy levels of hydrogen without [[fine structure]].
+
+In 1926, soon after the Schrödinger equation was introduced, [[Vladimir Fock]] wrote an article about its generalization for the case of [[magnetic field]]s, where [[force]]s were dependent on [[velocity]], and independently derived this equation. Both Klein and Fock used [[Theodor Kaluza|Kaluza]] and Klein's method. Fock also determined the [[gauge theory]] for the [[wave equation]]. The Klein–Gordon equation for a [[free particle]] has a simple [[plane-wave]] solution.
+
+==Derivation==
+The non-relativistic equation for the energy of a free particle is
+: <math>\frac{\mathbf{p}^2}{2 m} = E.</math>
+
+By quantizing this, we get the non-relativistic Schrödinger equation for a free particle:
+: <math>\frac{\mathbf{\hat{p}}^2}{2m} \psi = \hat{E} \psi,</math>
+where 
+: <math>\mathbf{\hat{p}} = -i \hbar \mathbf{\nabla}</math>
+is the [[momentum operator]] ({{math|∇}} being the [[del|del operator]]), and 
+: <math>\hat{E} = i \hbar \frac{\partial}{\partial t}</math>
+is the [[energy operator]].
+
+The Schrödinger equation suffers from not being [[Poincaré group|relativistically invariant]], meaning that it is inconsistent with [[special relativity]].
+
+It is natural to try to use the identity from special relativity describing the energy:
+
+: <math>\sqrt{\mathbf{p}^2 c^2 + m^2 c^4} = E.</math>
+
+Then, just inserting the quantum-mechanical operators for momentum and energy yields the equation
+
+: <math>\sqrt{(-i\hbar\mathbf{\nabla})^2 c^2 + m^2 c^4} \, \psi = i \hbar \frac{\partial}{\partial t}\psi.</math>
+
+The square root of a differential operator can be defined with the help of [[Fourier transform]]ations, but due to the asymmetry of space and time derivatives, Dirac found it impossible to include external electromagnetic fields in a relativistically invariant way. So he looked for another equation that can be modified in order to describe the action of electromagnetic forces. In addition, this equation, as it stands, is [[Action at a distance|nonlocal]] (see also [http://www.ma.utexas.edu/mediawiki/index.php/Introduction_to_nonlocal_equations Introduction to nonlocal equations]).
+
+Klein and Gordon instead began with the square of the above identity, i.e.
+: <math>\mathbf{p}^2 c^2 + m^2 c^4 = E^2,</math>
+which, when quantized, gives
+: <math>\left( (-i\hbar\mathbf{\nabla})^2 c^2 + m^2 c^4 \right) \psi = \left( i \hbar \frac{\partial}{\partial t} \right)^2 \psi,</math>
+
+which simplifies to
+: <math>-\hbar^2 c^2 \mathbf{\nabla}^2 \psi + m^2 c^4 \psi = -\hbar^2 \frac{\partial^2}{\partial t^2} \psi.</math>
+
+Rearranging terms yields
+: <math>\frac{1}{c^2} \frac{\partial^2}{\partial t^2} \psi - \mathbf{\nabla}^2 \psi + \frac{m^2 c^2}{\hbar^2} \psi = 0.</math>
+
+Since all reference to imaginary numbers has been eliminated from this equation, it can be applied to fields that are [[real number|real-valued]], as well as those that have [[complex number|complex values]].
+
+Rewriting the first two terms using the inverse of the [[Minkowski metric]] {{math|diag(−''c''<sup>2</sup>, 1, 1, 1)}}, and writing the Einstein summation convention explicitly we get
+: <math>-\eta^{\mu \nu} \partial_\mu \, \partial_\nu \psi \equiv
+ \sum_{\mu=0}^{\mu=3} \sum_{\nu=0}^{\nu=3} -\eta^{\mu\nu} \partial_\mu \, \partial_\nu \psi =
+ \frac{1}{c^2} \partial_0^2 \psi - \sum_{\nu=1}^{\nu=3} \partial_\nu \, \partial_\nu\psi =
+ \frac{1}{c^2} \frac{\partial^2}{\partial t^2} \psi - \mathbf{\nabla}^2 \psi.</math>
+
+Thus the Klein–Gordon equation can be written in a covariant notation. This often means an abbreviation in the form of
+: <math>(\Box + \mu^2) \psi = 0,</math>
+where
+: <math>\mu = \frac{mc}{\hbar},</math>
+and
+: <math>\Box = \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2.</math>
+
+This operator is called the [[d'Alembert operator]].
+
+Today this form is interpreted as the relativistic [[field equation]] for [[spin (physics)|spin]]-0 particles.<ref name=":0"/>  Furthermore, any ''component'' of any solution to the free [[Dirac equation]] (for a [[spin-1/2]] particle) is automatically a solution to the free Klein–Gordon equation. This generalizes to particles of any spin due to the [[Bargmann–Wigner equations]]. Furthermore, in [[quantum field theory]], every component of every quantum field must satisfy the free Klein–Gordon equation,<ref>{{harvnb|Weinberg|2002|loc=Ch. 5}}.</ref> making the equation a generic expression of quantum fields.
+
+=== Klein–Gordon equation in a potential ===
+
+The Klein–Gordon equation can be generalized to describe a field in some potential {{math|''V''(''ψ'')}} as<ref>David Tong, [http://www.damtp.cam.ac.uk/user/tong/qft.html Lectures on Quantum Field Theory], Lecture 1, Section 1.1.1.</ref>
+: <math>\Box \psi + \frac{\partial V}{\partial \psi} = 0.</math>
+
+==Conserved current==
+The conserved current associated to the ''U''(1) symmetry of a complex field <math>\varphi(x) \in \mathbb{C}</math> satisfying the Klein–Gordon equation reads
+
+: <math>\partial_\mu J^\mu(x) = 0, \quad J^\mu(x) \equiv \frac{e}{2m} \left( \, \varphi^*(x) \partial^\mu\varphi(x) - \varphi(x)\partial^\mu \varphi^*(x) \, \right).</math>
+
+The form of the conserved current can be derived systematically by applying [[Noether's theorem]] to the ''U''(1) symmetry. We will not do so here, but simply give a proof that this conserved current is correct.
+
+===Proof using algebraic manipulations from the KG equation===
+From the Klein–Gordon equation for a complex field <math>\varphi(x)</math> of mass <math>m</math>, written in covariant notation
+
+: <math>(\square + \mu^2) \varphi(x) = 0</math>
+
+and its complex conjugate
+
+: <math>(\square + \mu^2) \varphi^*(x) = 0,</math>
+
+we have, multiplying by the left respectively by <math>\varphi^*(x)</math> and <math>\varphi(x)</math> (and omitting for brevity the explicit <math>x</math> dependence),
+
+: <math>\varphi^*(\square + \mu^2) \varphi = 0,</math>
+: <math>\varphi(\square + \mu^2) \varphi^* = 0.</math>
+
+Subtracting the former from the latter, we obtain
+
+: <math>\varphi^* \square \varphi - \varphi \square \varphi^* = 0,</math>
+
+: <math>\varphi^* \partial_\mu \partial^\mu \varphi - \varphi \partial_\mu \partial^\mu \varphi^* = 0,</math>
+
+then we also know
+
+: <math>\partial_\mu ( \varphi^* \partial^\mu \varphi ) = \partial_\mu \varphi^* \partial^\mu \varphi + \varphi^* \partial_\mu \partial^\mu \varphi </math>
+
+from which we obtain the conservation law for the Klein–Gordon field:
+
+: <math>\partial_\mu J^\mu(x) = 0, \quad J^\mu(x) \equiv \varphi^*(x) \partial^\mu\varphi(x) - \varphi(x)\partial^\mu \varphi^*(x).</math>
+
+==Action==
+The Klein–Gordon equation can also be derived by a [[calculus of variations|variational]] method, considering the action{{dubious|date=December 2019}}
+
+: <math>\mathcal{S} = \int \left( -\frac{\hbar^2}{m} \eta^{\mu \nu} \partial_\mu\bar\psi \,\partial_\nu \psi - m c^2 \bar\psi \psi \right) \mathrm{d}^4 x,</math>
+
+where {{mvar|ψ}} is the Klein–Gordon field, and {{math|''m''}} is its mass. The [[complex conjugate]] of {{mvar|ψ}} is written {{mvar|{{overbar|ψ}}}}. If the scalar field is taken to be real-valued, then {{mvar|{{overbar|ψ}} {{=}} ψ}}, and it is customary to introduce a factor of 1/2 for both terms.
+
+Applying the formula for the [[stress–energy tensor#Hilbert stress–energy tensor|Hilbert stress–energy tensor]] to the Lagrangian density (the quantity inside the integral), we can derive the [[stress–energy tensor]] of the scalar field. It is
+
+: <math>T^{\mu\nu} = \frac{\hbar^2}{m} \left (\eta^{\mu \alpha} \eta^{\nu \beta} + \eta^{\mu \beta} \eta^{\nu \alpha} - \eta^{\mu\nu} \eta^{\alpha \beta} \right ) \partial_\alpha \bar\psi \, \partial_\beta \psi - \eta^{\mu\nu} m c^2 \bar\psi \psi .</math>
+
+By integration of the time–time component {{math|''T''<sup>00</sup>}} over all space, one may show that both the positive- and negative-frequency plane-wave solutions can be physically associated with particles with ''positive'' energy. This is not the case for the Dirac equation and its energy–momentum tensor.<ref name=":0"/>
+
+==Non-relativistic limit==
+===Classical field===
+Taking the non-relativistic limit ({{math|''v'' ≪ ''c''}}) of a classical Klein-Gordon field {{math|''ψ''('''x''', ''t'')}} begins with the ansatz factoring the oscillatory [[rest mass energy]] term,
+
+:<math>\psi(\mathbb x, t) = \phi(\mathbb x, t)\,e^{-\frac i \hbar m c^2 t} \quad \textrm{where} \quad \phi(\mathbb x, t)=u_E(x)e^{-\frac i \hbar E' t}.</math>
+
+Defining the kinetic energy <math>E' = E - mc^2=\sqrt{m^2c^4+c^2p^2}-mc^2\approx\frac{p^2}{2m}</math>, <math>E' \ll mc^2</math> in the non-relativistic limit {{math|v~p << c}}, and hence
+
+:<math>\left|i\hbar \frac{\partial\phi}{\partial t}\right| = E' \phi \ll mc^2\phi.</math>
+
+Applying this yields the non-relativistic limit of the second time derivative of <math>\psi</math>,
+
+:<math>\frac{\partial\psi}{\partial t} = \left(-i\frac{mc^2}{\hbar}\phi+\frac{\partial\phi}{\partial t} \right)\,e^{-\frac i \hbar mc^2 t}\approx -i\frac{mc^2}{\hbar}\phi\,e^{-\frac i \hbar mc^2 t}</math>
+:<math>\frac{\partial^2\psi}{\partial t^2} \approx -\left( i\frac{2mc^2}{\hbar} \frac{\partial\phi}{\partial t} + \left(\frac{mc^2}{\hbar}\right)^2 \phi \right) e^{-\frac i \hbar mc^2 t}</math>
+
+Substituting into the free Klein–Gordon equation, <math>c^{-2}\partial_t^2 \psi = \nabla^2 \psi - m^2 \psi</math>, yields
+
+:<math>-\frac{1}{c^2}\left( i\frac{2mc^2}{\hbar} \frac{\partial\phi}{\partial t} + \left(\frac{mc^2}{\hbar}\right)^2 \phi \right) e^{-\frac i \hbar mc^2 t} \approx \left(\nabla^2 - \left(\frac{mc^2}{\hbar}\right)^2\right)\phi\,e^{-\frac i \hbar mc^2 t}</math>
+
+which (by dividing out the exponential and subtracting the mass term) simplifies to
+
+:<math>i\hbar\frac{\partial\phi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\phi.</math>
+
+This is a ''classical'' [[Schrödinger field]].
+
+===Quantum field===
+The analogous limit of a quantum Klein-Gordon field is complicated by the non-commutativity of the field operator.  In the limit {{math|''v'' ≪ ''c''}}, the [[creation and annihilation operators]] decouple and behave as independent quantum [[Schrödinger field]]s.
+
+==Electromagnetic interaction==
+There is a simple way to make any field interact with electromagnetism in a [[gauge theory|gauge-invariant]] way: replace the derivative operators with the gauge-covariant derivative operators. This is because to maintain symmetry of the physical equations for the wavefunction <math>\varphi</math> under a local ''U''(1) gauge transformation <math>\varphi \to \varphi' = \exp(i\theta)\varphi</math>, where <math>\theta(t, \textbf{x})</math> is a locally variable phase angle, which transformation redirects the wavefunction in the complex phase space defined by <math>\exp(i\theta) = \cos\theta + i \sin\theta</math>, it is required that ordinary derivatives <math>\partial_\mu</math> be replaced by gauge-covariant derivatives <math>D_\mu = \partial_\mu - ieA_\mu</math>, while the gauge fields transform as <math>eA_\mu \to eA'_\mu = eA_\mu + \partial_\mu\theta</math>.  With the (−, +, +, +) metric signature, The Klein–Gordon equation therefore becomes
+
+: <math>D_\mu D^\mu \varphi = -(\partial_t - ie A_0)^2 \varphi + (\partial_i - ie A_i)^2 \varphi = m^2 \varphi</math>
+
+in [[natural units]], where {{math|''A''}} is the vector potential. While it is possible to add many higher-order terms, for example,
+: <math>D_\mu D^\mu \varphi + A F^{\mu\nu} D_\mu \varphi D_\nu (D_\alpha D^\alpha \varphi) = 0,</math>
+these terms are not [[renormalization|renormalizable]] in 3&nbsp;+&nbsp;1 dimensions.
+
+The field equation for a charged scalar field multiplies by {{mvar|i}},{{clarify|reason=Does this change it? Sounds equivalent.|date=October 2016}} which means that the field must be complex. In order for a field to be charged, it must have two components that can rotate into each other, the real and imaginary parts.
+
+The action for a massless charged scalar is the covariant version of the uncharged action:
+
+: <math>S = \int_x \eta^{\mu\nu} \left( \partial_\mu \varphi^* + ie A_\mu \varphi^* \right) \left( \partial_\nu \varphi - ie A_\nu\varphi \right) = \int_x |D \varphi|^2.</math>
+
+==Gravitational interaction==
+In [[general relativity]], we include the effect of gravity by replacing partial with [[covariant derivative]]s, and the Klein–Gordon equation becomes (in the [[Metric signature|mostly pluses signature]])<ref>{{cite book |first=S. A. |last=Fulling |title=Aspects of Quantum Field Theory in Curved Space–Time |publisher=Cambridge University Press |year=1996 |page=117 |isbn=0-07-066353-X }}</ref>
+
+: <math>\begin{align}
+ 0 &= - g^{\mu \nu} \nabla_{\mu} \nabla_{\nu} \psi + \dfrac {m^2 c^2}{\hbar^2} \psi = - g^{\mu \nu} \nabla_{\mu} (\partial_\nu \psi) + \dfrac {m^2 c^2}{\hbar^2} \psi \\
+ &= -g^{\mu \nu} \partial_\mu \partial_\nu \psi + g^{\mu \nu} \Gamma^{\sigma}{}_{\mu \nu} \partial_\sigma \psi + \dfrac {m^2 c^2}{\hbar^2} \psi,
+\end{align}</math>
+
+or equivalently,
+
+: <math>\frac{-1}{\sqrt{-g}} \partial_\mu \left( g^{\mu \nu} \sqrt{-g} \partial_\nu \psi \right) + \frac {m^2 c^2}{\hbar^2} \psi = 0,</math>
+
+where {{math|''g<sup>αβ</sup>''}} is the inverse of the [[metric tensor]] that is the gravitational potential field, ''g'' is the [[determinant]] of the metric tensor, {{math|∇<sub>''μ''</sub>}} is the [[covariant derivative]], and {{math|Γ''<sup>σ</sup><sub>μν</sub>''}} is the [[Christoffel symbol]] that is the gravitational [[force field (physics)|force field]].
+
+==See also==
+*[[Dirac equation]]
+*[[Quantum field theory]]
+*[[Quartic interaction]]
+*[[Relativistic wave equations]]
+*[[Rarita–Schwinger equation]]
+*[[Scalar field theory]]
+*[[Sine–Gordon equation]]
+
+==Remarks==
+{{Reflist|group=nb}}
+
+==Notes==
+{{Reflist}}
+
+==References==
+*{{cite book  |  author= Davydov, A. S. |  title= Quantum Mechanics, 2nd Edition | publisher=[[Pergamon Press]] | year=1976 | isbn=0-08-020437-6}}
+*{{cite journal|last1=Feshbach|first1=H.|last2=Villars|first2=F.|title=Elementary relativistic wave mechanics of spin 0 and spin 1/2 particles|journal=Reviews of Modern Physics|volume=30|issue=1|pages=24–45|year=1958|doi=10.1103/RevModPhys.30.24|bibcode = 1958RvMP...30...24F }}
+*{{cite journal|last1=Gordon|first1=Walter|journal=Zeitschrift für Physik|year=1926|volume=40|issue=1–2|page=117|doi=10.1007/BF01390840|title=Der Comptoneffekt nach der Schrödingerschen Theorie|bibcode=1926ZPhy...40..117G|s2cid=122254400}}
+*{{cite book| first = W.|last=Greiner|year = 2000 |edition=3rd|title = Relativistic Quantum Mechanics. Wave Equations|publisher= [[Springer Verlag]]| isbn = 3-5406-74578|url=https://books.google.com/books?id=2DAInxwvlHYC&q=Relativistic+quantum+mechanics&pg=PA1|author-link=Walter Greiner}}
+*{{cite book|last1=Greiner|first=W.|last2=Müller|first2=B.|title=Quantum Mechanics: Symmetries|url=https://archive.org/details/quantummechanics0001grei|url-access=registration|year=1994|edition=2nd|isbn=978-3540580805|publisher=Springer}}
+*{{cite book|last=Gross|first=F.|title=Relativistic Quantum Mechanics and Field Theory|year=1993|edition=1st|publisher=[[Wiley-VCH]]|isbn=978-0471591139}}
+*{{cite journal|last1=Klein|first1=O.|journal=Zeitschrift für Physik|year=1926|volume=37|issue=12|page=895|doi=10.1007/BF01397481|title=Quantentheorie und fünfdimensionale Relativitätstheorie|bibcode=1926ZPhy...37..895K}}
+*{{cite book|last=Sakurai|first=J. J.|title=Advanced Quantum Mechanics|publisher=[[Addison Wesley]]|year=1967|isbn=0-201-06710-2}}
+*{{cite book|last=Weinberg|first=S.|year=2002|title=The Quantum Theory of Fields|volume=I|isbn=0-521-55001-7|author-link=Steven Weinberg|publisher=[[Cambridge University Press]]|url-access=registration|url=https://archive.org/details/quantumtheoryoff00stev}}
+
+==External links==
+* {{springer|title=Klein–Gordon equation|id=p/k055480}}
+* {{MathWorld| id=Klein-GordonEquation | title=Klein-Gordon Equation}}
+* [http://eqworld.ipmnet.ru/en/solutions/lpde/lpde203.pdf Linear Klein–Gordon Equation] at EqWorld: The World of Mathematical Equations.
+* [http://eqworld.ipmnet.ru/en/solutions/npde/npde2107.pdf Nonlinear Klein–Gordon Equation] at EqWorld: The World of Mathematical Equations.
+* [http://www.ma.utexas.edu/mediawiki/index.php/Introduction_to_nonlocal_equations Introduction to nonlocal equations].
+
+{{Quantum mechanics topics|state=collapsed}}
+{{Authority control}}
+
+{{DEFAULTSORT:Klein-Gordon equation}}
+[[Category:Partial differential equations]]
+[[Category:Special relativity]]
+[[Category:Waves]]
+[[Category:Quantum field theory]]
+[[Category:Equations of physics]]
+[[Category:Mathematical physics]]

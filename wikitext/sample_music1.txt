@@ -1,0 +1,246 @@
+{{short description|Sign used in musical notation, a pitched sound}}
+In [[music]], a '''note''' is a symbol denoting a musical sound. In English usage, a note is also the sound itself.
+
+Notes can represent the [[Pitch (music)|pitch]] and [[Duration (music)|duration]] of a sound in [[musical notation]]. A note can also represent a [[pitch class]].
+
+Notes are the building blocks of much written music: [[musical analysis#Discretization|discretizations]] of musical phenomena that facilitate performance, comprehension, and [[musical analysis|analysis]].{{sfn|Nattiez|1990|p=81, note 9}}
+
+The term ''note'' can be used in both generic and specific senses: one might say either "the piece '[[Happy Birthday to You]]' begins with two notes having the same pitch", or "the piece begins with two repetitions of the same note". In the former case, one uses ''note'' to refer to a specific musical event; in the latter, one uses the term to refer to a class of events sharing the same pitch. (See also: [[Key signature names and translations]].)
+
+[[File:Treble a.svg|right|250px|thumb|The note ''A'' or ''La'']]
+[[File:Cifrado americano.JPG|right|thumb|Names of some notes]]
+
+Two notes with [[fundamental frequency|fundamental frequencies]] in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same [[pitch class]].
+
+In European music theory, most countries use the [[solfège]] naming convention do–re–mi–fa–sol–la–si, including for instance Italy, Portugal, Spain, France, Romania, most Latin American countries, Greece, Albania, Bulgaria, Turkey, Russia, Arabic-speaking and Persian-speaking countries. However, in English- and Dutch-speaking regions, pitch classes are typically represented by the first seven letters of the Latin alphabet (A, B, C, D, E, F and G). Several European countries, including Germany, adopt an almost identical notation, in which H is substituted for B (see below for details). Byzantium used the names Pa–Vu–Ga–Di–Ke–Zo–Ni (Πα–Βου–Γα–Δι–Κε–Ζω–Νη).<ref>{{cite book| title=Byzantine Music in Theory and in Practice | author= Savas I. Savas | year=1965 | publisher=Hercules Press | translator=Nicholas Dufault}}</ref>
+
+In traditional [[Indian classical music|Indian music]], musical notes are called [[Svara|svaras]] and commonly represented using the seven notes, Sa, Re, Ga, Ma, Pa, Dha and Ni.
+
+The eighth note, or [[octave]], is given the same name as the first, but has double its frequency. The name octave is also used to indicate the span between a note and another with double frequency. To differentiate two notes that have the same pitch class but fall into different octaves, the system of [[scientific pitch notation]] combines a letter name with an Arabic numeral designating a specific octave. For example, the now-standard tuning pitch for most Western music, [[A440_(pitch_standard)|440&nbsp;Hz]], is named a′ or A<sub>4</sub>.
+
+There are two formal systems to define each note and octave, the [[Helmholtz pitch notation]] and the [[scientific pitch notation]].
+
+== Accidentals ==
+
+Letter names are modified by the [[accidental (music)|accidentals]]. The [[sharp (music)|sharp sign]] {{music|sharp}} raises a note by a [[semitone]] or half-step, and a [[flat (music)|flat]] {{music|flat}} lowers it by the same amount. In [[Equal temperament|modern tuning]] a [[half step]] has a frequency ratio of [[Twelfth root of two|{{radic|2|12}}]], approximately 1.0595. The accidentals are written after the note name: so, for example, F{{music|sharp}} represents F-sharp, B{{music|flat}} is B-flat, and C{{music|natural}} is C natural (or C).
+[[File:frequency vs name.svg|frame|right|Frequency vs position on [[treble clef]]. Each note shown has a frequency of the previous note multiplied by {{radic|2|12}}]]
+
+Additional accidentals are the double-sharp {{music|##}}, raising the frequency by two semitones, and double-flat {{music|bb}}, lowering it by that amount.
+
+In musical notation, accidentals are placed before the note symbols. Systematic alterations to the seven lettered pitches in the scale can be indicated by placing the symbols in the [[key signature]], which then apply implicitly to all occurrences of corresponding notes. Explicitly noted accidentals can be used to override this effect for the remainder of a bar. A special accidental, the [[natural (music)|natural]] symbol {{music|natural}}, is used to indicate a pitch unmodified by the alterations in the key signature. Effects of key signature and local accidentals do not accumulate. If the key signature indicates G{{music|sharp}}, a local flat before a G makes it G{{music|flat}} (not G{{music|natural}}), though often this type of rare accidental is expressed as a natural, followed by a flat ({{music|natural}}{{music|b}}) to make this clear. Likewise (and more commonly), a double sharp {{music|##}} sign on a key signature with a single sharp {{music|#}} indicates only a double sharp, not a triple sharp.
+
+Assuming [[enharmonic]]ity, many accidentals will create equivalences between pitches that are written differently. For instance, raising the note B to B{{music|sharp}} is equal to the note C. Assuming all such equivalences, the complete [[chromatic scale]] adds five additional pitch classes to the original seven lettered notes for a total of 12 (the 13th note completing the [[octave]]), each separated by a half-step.
+
+Notes that belong to the [[diatonic scale]] relevant in the context are sometimes called ''[[diatonic]] notes''; notes that do not meet that criterion are then sometimes called ''[[chromatic]] notes''.
+
+Another style of notation, rarely used in English, uses the suffix "is" to indicate a sharp and "es" (only "s" after A and E) for a flat, e.g., Fis for F{{music|sharp}}, Ges for G{{music|flat}}, Es for E{{music|flat}}. This system first arose in Germany and is used in almost all European countries whose main language is not English, Greek, or a [[Romance language]] (such as French, Portuguese, Spanish, Italian, and Romanian).
+
+In most countries using these suffixes, the letter H is used to represent what is B natural in English, the letter B is used instead of B{{music|flat}}, and Heses (i.e., H{{music|bb}}) is used instead of B{{music|bb}} (although Bes and Heses both denote the English B{{music|bb}}). Dutch-speakers in Belgium and the Netherlands use the same suffixes, but applied throughout to the notes A to G, so that B, B{{music|flat}} and B{{music|bb}} have the same meaning as in English, although they are called B, Bes, and Beses instead of B, B flat and B double flat. Denmark also uses H, but uses Bes instead of Heses for B{{music|bb}}.
+
+==12-tone chromatic scale==
+
+The following chart lists the names used in different countries for the 12 notes of a [[chromatic scale]] built on C. The corresponding symbols are shown within parenthesis. Differences between German and English notation are highlighted in '''bold''' typeface. Although the English and Dutch names are different, the corresponding symbols are identical.
+
+{| class="wikitable" style="text-align: center"
+|+Names of notes in various languages and countries
+! style="text-align:left"| Naming convention
+! style="width:50px;"|1 ||2||3||4|| style="width:50px;"|5 ||6||7|| style="width:50px;"|8 ||9||10||11|| style="width:50px;"|12
+|-
+! style="text-align:left" rowspan="2"| [[English language|English]]
+| rowspan="2"|C || C [[Sharp (music)|sharp]]<br> (C[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|D || D sharp<br> (D{{music|sharp}}) || rowspan="2"|E || rowspan="2"|F || F sharp<br> (F{{music|sharp}}) || rowspan="2"|G || G sharp<br> (G{{music|sharp}}) || rowspan="2"|A || A sharp<br> (A{{music|sharp}}) || rowspan="2"|'''B'''
+|-
+| D [[Flat (music)|flat]]<br> (D[[Flat (music)|{{music|flat}}]]) || E flat<br> (E{{music|flat}}) || G flat<br> (G{{music|flat}}) || A flat<br> (A{{music|flat}}) || '''B flat<br> (B{{music|flat}})'''
+
+|-
+! style="text-align:left" rowspan="2"| [[German language|German]]<ref name="is">''-is'' = [[Sharp (music)|sharp]]; ''-es'' (after consonant) and ''-s'' (after vowel) = [[Flat (music)|flat]]</ref> <br> (used in [[Austria|AT]], [[Czech Republic|CZ]], [[Germany|DE]], [[Denmark|DK]], [[Estonia|EE]], [[Finland|FI]], [[Hungary|HU]], [[Norway|NO]], [[Poland|PL]], [[Serbia|RS]], [[Slovakia|SK]], [[Slovenia|SI]], [[Sweden|SE]])
+| rowspan="2"|C || Cis<br> (C[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|D || Dis<br> (D[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|E || rowspan="2"|F || Fis<br> (F[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|G || Gis<br> (G[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|A || Ais<br> (A[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|'''H'''
+|-
+| Des<br> (D[[Flat (music)|{{music|flat}}]]) || Es<br> (E[[Flat (music)|{{music|flat}}]]) || Ges<br> (G[[Flat (music)|{{music|flat}}]]) || As<br> (A[[Flat (music)|{{music|flat}}]]) || '''B'''
+
+|-
+! style="text-align:left" rowspan="2"| [[Dutch language|Dutch]]<ref name="is" /> <br> (used in [[Netherlands|NL]], and sometimes in [[Scandinavia]] after the 1990s, and [[Indonesia]])
+| rowspan="2"|C || Cis<br> (C[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|D || Dis<br> (D[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|E || rowspan="2"|F || Fis<br> (F[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|G || Gis<br> (G[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|A || Ais<br> (A[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|B
+|-
+| Des<br> (D[[Flat (music)|{{music|flat}}]]) || Es<br> (E[[Flat (music)|{{music|flat}}]]) || Ges<br> (G[[Flat (music)|{{music|flat}}]]) || As<br> (A[[Flat (music)|{{music|flat}}]]) || Bes<br> (B[[Flat (music)|{{music|flat}}]])
+
+|-
+! style="text-align:left" rowspan="2" | [[Romance languages|Neo-Latin]]<ref>''diesis'' = [[Sharp (music)|sharp]]; ''bemolle'' = [[Flat (music)|flat]]</ref> <br>(used in [[Italy|IT]], [[France|FR]], [[Spain|ES]], [[Romania|RO]], [[Latin America]], [[Greece|GR]], [[Israel|IL]], [[Turkey|TR]], [[Latvia|LV]] and [[#History of note names|many other countries]])<br>diesis/bemolle are Italian spelling
+| rowspan="2"|do|| do diesis<br> (do[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|re || re diesis<br> (re[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|mi || rowspan="2"|fa || fa diesis<br> (fa[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|sol || sol diesis<br> (sol[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|la || la diesis<br> (la[[Sharp (music)|{{music|sharp}}]]) || rowspan="2"|si
+|-
+| re bemolle<br> (re[[Flat (music)|{{music|flat}}]]) || mi bemolle<br> (mi[[Flat (music)|{{music|flat}}]]) || sol bemolle<br> (sol[[Flat (music)|{{music|flat}}]]) || la bemolle<br> (la[[Flat (music)|{{music|flat}}]]) || si bemolle<br> (si[[Flat (music)|{{music|flat}}]])
+|-
+! style="text-align:left" rowspan="2"| [[Byzantine music|Byzantine]]<ref>''diesis'' (or ''diez'') = [[Sharp (music)|sharp]]; ''hyphesis'' = [[Flat (music)|flat]]</ref>
+| rowspan="2"|Ni || Ni diesis || rowspan="2"|Pa || Pa diesis || rowspan="2"|Vu || rowspan="2"|Ga || Ga diesis || rowspan="2"|Di || Di diesis || rowspan="2"|Ke || Ke diesis || rowspan="2"|Zo
+|-
+| Pa hyphesis || Vu hyphesis || Di hyphesis || Ke hyphesis || Zo hyphesis
+|-
+! style="text-align:left" rowspan="2"| [[Japanese language|Japanese]]<ref>{{lang|ja|嬰}} (''ei'') = {{Music|sharp}} ([[Sharp (music)|sharp]]); {{lang|ja|変}} (hen) = {{Music|flat}} ([[Flat (music)|flat]])</ref>
+| rowspan="2"| Ha ({{lang|ja|ハ}}) || Ei-ha<br> ({{lang|ja|嬰ハ}}) || rowspan="2"| Ni ({{lang|ja|ニ}}) || Ei-ni<br> ({{lang|ja|嬰ニ}}) || rowspan="2"| Ho ({{lang|ja|ホ}}) || rowspan="2"| He ({{lang|ja|ヘ}}) || Ei-he<br> ({{lang|ja|嬰へ}}) || rowspan="2"| To ({{lang|ja|ト}}) || Ei-to<br> ({{lang|ja|嬰ト}}) || rowspan="2"| I ({{lang|ja|イ}}) || Ei-i<br> ({{lang|ja|嬰イ}}) || rowspan="2"| Ro ({{lang|ja|ロ}})
+|-
+| Hen-ni<br> ({{lang|ja|変ニ}}) || Hen-ho<br> ({{lang|ja|変ホ}}) || Hen-to<br> ({{lang|ja|変ト}}) || Hen-i<br> ({{lang|ja|変イ}}) || Hen-ro<br> ({{lang|ja|変ロ}})
+|-
+! style="text-align:left" | [[Languages of India|Indian]] ([[Hindustani classical music|Hindustani]])<ref>According to [[Vishnu Narayan Bhatkhande|Bhatkhande]] Notation. {{lang|hi-Latn|Tivra}} = {{Music|sharp}} ([[Sharp (music)|sharp]]); {{lang|hi-Latn|Komal}} = {{Music|flat}} ([[flat (music)|flat]])</ref>
+| Sa<br> ({{lang|sa|सा}}) || Re Komal<br> ({{lang|sa|रे॒}}) || Re<br> ({{lang|sa|रे}}) || Ga Komal<br> ({{lang|sa|ग॒}}) || Ga<br> ({{lang|sa|ग}}) || Ma<br> ({{lang|sa|म}}) || Ma {{lang|hi-Latn|Tivra}}<br> ({{lang|sa|म॑}}) || Pa<br> ({{lang|sa|प}}) || Dha Komal<br> ({{lang|sa|ध॒}}) || Dha<br> ({{lang|sa|ध}}) || Ni Komal<br> ({{lang|sa|नि॒}}) || Ni<br> ({{lang|sa|नि}})
+|-
+! style="text-align:left" rowspan="2"| Indian ([[Carnatic music|Carnatic]])
+| rowspan="2"|Sa || rowspan="2"|Shuddha Ri (R1) || Chatushruti Ri (R2) || Sadharana Ga (G2) || rowspan="2" |Antara Ga (G3) || rowspan="2" |Shuddha Ma (M1) || rowspan="2" |Prati Ma (M2) || rowspan="2" |Pa || rowspan="2"|Shuddha Dha (D1) || Chatushruti Dha (D2) || Kaisika Ni (N2) || rowspan="2" |Kakali Ni (N3)
+|-
+| Shuddha Ga (G1) || Shatshruti Ri (R3) || Shuddha Ni (N1) || Shatshruti Dha (D3)
+|-
+! style="text-align:left" | Indian ([[Bengali Music|Bengali]])<ref>According to Akarmatrik Notation (আকারমাত্রিক স্বরলিপি). Kôṛi = {{Music|sharp}} ([[Sharp (music)|sharp]]); Komôl = {{Music|flat}} ([[flat (music)|flat]])</ref>
+| Sa<br> ({{lang|bn|সা}}) || Komôl Re<br> ({{lang|bn|ঋ}}) || Re<br> ({{lang|bn|রে}}) || Komôl Ga<br> ({{lang|bn|জ্ঞ}}) || Ga<br> ({{lang|bn|গ}}) || Ma<br> ({{lang|bn|ম}}) || Kôṛi Ma<br> ({{lang|bn|হ্ম}}) || Pa<br> ({{lang|bn|প}}) || Komôl Dha<br> ({{lang|bn|দ}}) || Dha<br> ({{lang|bn|ধ}}) || Komôl Ni<br> ({{lang|bn|ণ}}) || Ni<br> ({{lang|bn|নি}})
+|-
+|}
+
+== Note designation in accordance with octave name ==
+{{See also|Piano key frequencies}}
+The table below shows each octave and the frequencies for every note of pitch class A. The traditional ([[Helmholtz pitch notation|Helmholtz]]) system centers on the great octave (with capital letters) and small octave (with lower case letters). Lower octaves are named "contra" (with primes before), higher ones "lined" (with primes after). Another system ([[Scientific pitch notation|scientific]]) suffixes a number (starting with 0, or sometimes −1). In this system A<sub>4</sub> is nowadays standardised at 440&nbsp;Hz, lying in the octave containing notes from C<sub>4</sub> (middle C) to B<sub>4</sub>. The lowest note on most pianos is A<sub>0</sub>, the highest C<sub>8</sub>. The [[MIDI]] system for electronic musical instruments and computers uses a straight count starting with note 0 for C<sub>−1</sub> at 8.1758&nbsp;Hz up to note 127 for G<sub>9</sub> at 12,544&nbsp;Hz.
+
+{|class="wikitable" style="text-align: center"
+|+Names of octaves
+! colspan="4" | Octave naming systems || rowspan="2" |Frequency<br />of [[A (musical note)|A]] (Hz)
+|-
+! Traditional || [[Helmholtz pitch notation|Helmholtz]] || [[Scientific pitch notation|Scientific]] || [[MIDI]]
+|-
+| style="text-align: left" | subsubcontra
+| C͵͵͵ – B͵͵͵ || C<sub>−1</sub> – B<sub>−1</sub> || {{0}}0 – 11 || style="text-align: right" |13.75
+|-
+| style="text-align: left" | sub-contra
+| C͵͵ – B͵͵ || C<sub>0</sub> – B<sub>0</sub> || 12 – 23 || style="text-align: right" |27.5{{0}}
+|-
+| style="text-align: left" | contra
+| C͵ – B͵ || C<sub>1</sub> – B<sub>1</sub> || 24 – 35 || style="text-align: right" | 55{{0|.00}}
+|-
+| style="text-align: left" | great
+| C – B || C<sub>2</sub> – B<sub>2</sub> || 36 – 47 || style="text-align: right" | 110{{0|.00}}
+|-
+| style="text-align: left" | small
+| c – b || C<sub>3</sub> – B<sub>3</sub> || 48 – 59 || style="text-align: right" | 220{{0|.00}}
+|-
+| style="text-align: left" | one-lined
+| c′ – b′ || C<sub>4</sub> – B<sub>4</sub> || 60 – 71 || style="text-align: right" | 440{{0|.00}}
+|-
+| style="text-align: left" | two-lined
+| c′′ – b′′ || C<sub>5</sub> – B<sub>5</sub> || 72 – 83 || style="text-align: right" | 880{{0|.00}}
+|-
+| style="text-align: left" | three-lined
+| c′′′ – b′′′ || C<sub>6</sub> – B<sub>6</sub> || 84 – 95 || style="text-align: right" | 1760{{0|.00}}
+|-
+| style="text-align: left" | four-lined
+| c′′′′ – b′′′′ || C<sub>7</sub> – B<sub>7</sub> || {{0}}96 – 107 || style="text-align: right" | 3520{{0|.00}}
+|-
+| style="text-align: left" | five-lined
+| c′′′′′ – b′′′′′ || C<sub>8</sub> – B<sub>8</sub> || 108 – 119 || style="text-align: right" | 7040{{0|.00}}
+|-
+| style="text-align: left" | six-lined
+| c′′′′′′ – b′′′′′′ || C<sub>9</sub> – B<sub>9</sub> || 120 – 127<br><small>C to G</small> || style="text-align: right" |14080{{0|.00}}
+|}
+
+== Written notes ==
+A written note can also have a [[note value]], a code that determines the note's relative [[Duration (music)|duration]]. In order of halving duration, they are: [[double whole note|double note (breve)]]; [[whole note|whole note (semibreve)]]; [[half note|half note (minim)]]; [[quarter note|quarter note (crotchet)]]; [[eighth note|eighth note (quaver)]]; [[sixteenth note|sixteenth note (semiquaver)]].; [[thirty-second note|thirty-second note (demisemiquaver)]], [[sixty-fourth note|sixty-fourth note (hemidemisemiquaver)]], and [[hundred twenty-eighth note]].
+<!--PLEASE DON'T ADD THE NAME "QUASIHEMIDEMISEMIQUAVER" OR "SEMIHEMIDEMISEMIQUAVER" WITHOUT A REPUTABLE PEER REVIEWED SOURCE FOR IT, SUCH AS THE OXFORD DICTIONARY OF MUSIC OR A REPUTABLE UNABRIDGED DICTIONARY-->
+
+In a [[Sheet music|score]], each note is assigned a specific vertical position on a [[staff position]] (a line or space) on the [[Musical staff|staff]], as determined by the [[clef]]. Each line or space is assigned a note name. These names are memorized by [[musician]]s and allow them to know at a glance the proper pitch to play on their instruments.
+
+<center>
+<score sound="1">
+\relative c' {
+c1 d1 e1 f1 g1 a1 b1 c1 b1 a1 g1 f1 e1 d1 c1
+}
+\layout {
+   \context {
+     \Staff
+     \remove Time_signature_engraver
+     \remove Bar_engraver
+    }
+ } 
+\midi {
+  \tempo 1 = 120
+}
+</score>
+</center>
+
+The [[Staff (music)|staff]] above shows the notes C, D, E, F, G, A, B, C and then in reverse order, with no key signature or accidentals.
+
+== Note frequency (hertz) ==
+{{Main|Music and mathematics}}
+Music can be composed of notes at any arbitrary physical [[frequency]]. Since the physical causes of music are vibrations, they are often measured in [[hertz]] (Hz), with 1&nbsp;Hz meaning one vibration per second. For historical and other reasons, especially in Western music, only twelve notes of fixed frequencies are used. These fixed frequencies are mathematically related to each other, and are defined around the central note, A<sub>4</sub>. The current "standard pitch" or modern "[[concert pitch]]" for this note is 440&nbsp;Hz, although this varies in actual practice (see [[Concert pitch#History of pitch standards in Western music|History of pitch standards]]).
+
+The note-naming convention specifies a letter, any [[accidental (music)|accidentals]], and an octave number. Each note is an [[integer]] number of half-steps away from concert A (A<sub>4</sub>). Let this distance be denoted {{var|n}}. If the note is above A<sub>4</sub>, then {{var|n}} is [[positive number|positive]]; if it is below A<sub>4</sub>, then {{var|n}} is [[negative number|negative]]. The frequency of the note ({{var|f}}) (assuming [[equal temperament]]) is then:
+:<math>f = 2^\frac{n}{12} \times 440 \text{ Hz}\,</math>
+
+For example, one can find the frequency of C<sub>5</sub>, the first C above A<sub>4</sub>. There are 3 half-steps between A<sub>4</sub> and C<sub>5</sub> (A<sub>4</sub> → A{{music|sharp}}<sub>4</sub> → B<sub>4</sub> → C<sub>5</sub>), and the note is above A<sub>4</sub>, so {{var|n}} = 3. The note's frequency is:
+
+:<math>f = 2^\frac{3}{12} \times 440 \text{ Hz} \approx 523.2 \text{ Hz}</math>
+
+To find the frequency of a note below A<sub>4</sub>, the value of {{var|n}} is negative. For example, the F below A<sub>4</sub> is F<sub>4</sub>. There are 4 half-steps (A<sub>4</sub> → A{{music|flat}}<sub>4</sub> → G<sub>4</sub> → G{{music|flat}}<sub>4</sub> → F<sub>4</sub>), and the note is below A<sub>4</sub>, so {{var|n}} = −4. The note's frequency is:
+
+:<math>f = 2^{-\frac{4}{12}} \times 440 \text{ Hz} \approx 349.2 \text{ Hz}</math>
+
+Finally, it can be seen from this formula that octaves automatically yield [[exponentiation|powers]] of two times the original frequency, since {{var|n}} is a multiple of 12 (12{{var|k}}, where {{var|k}} is the number of octaves up or down), and so the formula reduces to:
+
+:<math>f = 2^\frac{12k}{12} \times 440 \text{ Hz} = 2^k \times 440 \text{ Hz}</math>
+
+yielding a [[factorization|factor]] of 2. In fact, this is the means by which this formula is derived, combined with the notion of equally-spaced [[interval (music)|intervals]].
+
+The distance of an equally [[Musical temperament|tempered]] semitone is divided into 100 [[cent (music)|cents]]. So 1200 cents are equal to one octave – a frequency ratio of 2:1. This means that a cent is precisely equal to {{radic|2|1200}}, which is approximately {{val|1.000578}}.
+
+For use with the [[Musical Instrument Digital Interface|MIDI]] (Musical Instrument Digital Interface) standard, a frequency mapping is defined by:
+
+:<math>p = 69 + 12 \times \log_2\frac{f}{440 \text{ Hz}}</math>
+
+where {{var|p}} is the MIDI note number (and 69 is the number of semitones between C<sub>−1</sub> (note 0) and A<sub>4</sub>). And in the opposite direction, to obtain the frequency from a MIDI note {{var|p}}, the formula is defined as:
+
+:<math>f=2^\frac{p-69}{12} \times 440 \text{ Hz}</math>
+
+For notes in an A440 equal temperament, this formula delivers the standard MIDI note number ({{var|p}}). Any other frequencies fill the space between the whole numbers evenly. This lets MIDI instruments be tuned accurately in any microtuning scale, including non-western traditional tunings.
+
+{{anchor|History of note names}}<!-- anchor used by other linking pages -->
+
+== Note names and their history ==
+Music notation systems have used letters of the [[alphabet]] for centuries. The 6th-century philosopher [[Boethius]] is known to have used the first fourteen letters of the classical [[Latin alphabet]] (the letter J did not exist until the 16th century),
+:A B C D E F G H I K L M N O,
+to signify the notes of the two-octave range that was in use at the time<ref>[[Boethius]], {{ill|Gottfried Friedlein|de}} (editor). {{IMSLP|work=De institutione musica (Boëthius, Anicius Manlius Severinus)|cname=''De institutione musica''|descr=text}}. Book IV, chapter 14, p. 341.</ref> and in modern [[scientific pitch notation]] are represented as
+:A<sub>2</sub> B<sub>2</sub> C<sub>3</sub> D<sub>3</sub> E<sub>3</sub> F<sub>3</sub> G<sub>3</sub> A<sub>3</sub> B<sub>3</sub> C<sub>4</sub> D<sub>4</sub> E<sub>4</sub> F<sub>4</sub> G<sub>4</sub>.
+
+Though it is not known whether this was his devising or common usage at the time, this is nonetheless called ''Boethian notation''. Although Boethius is the first author known to use this nomenclature in the literature, [[Ptolemy]] wrote of the two-octave range five centuries before, calling it the ''perfect system'' or ''complete system'' – as opposed to other, smaller-range note systems that did not contain all possible species of octave (i.e., the seven octaves starting from A, B, C, D, E, F, and G).
+
+Following this, the range (or compass) of used notes was extended to three octaves, and the system of repeating letters A–G in each octave was introduced, these being written as [[lower-case]] for the second octave (a–g) and double lower-case letters for the third (aa–gg). When the range was extended down by one note, to a G, that note was denoted using the Greek letter [[gamma]] (Γ). (It is from this that the French word for scale, ''gamme'' derives, and the English word [[hexachord|gamut]], from "Gamma-Ut", the lowest note in Medieval music notation.)
+
+The remaining five notes of the chromatic scale (the black keys on a piano keyboard) were added gradually; the first being B{{music|flat}}, since B was flattened in certain [[mode (music)|modes]] to avoid the dissonant [[tritone]] interval. This change was not always shown in notation, but when written, B{{music|flat}} (B-flat) was written as a Latin, round "b", and B{{music|natural}} (B-natural) a Gothic script (known as [[Blackletter]]) or "hard-edged" b. These evolved into the modern flat ({{music|flat}}) and natural ({{music|natural}}) symbols respectively. The sharp symbol arose from a barred b, called the "cancelled b".
+
+In parts of Europe, including [[Germany]], the [[Czech Republic]], [[Slovakia]], [[Poland]], [[Hungary]], [[Norway]], [[Denmark]], [[Serbia]], [[Croatia]], [[Slovenia]], [[Finland]] and [[Iceland]] (and [[Sweden]] before the 1990s), the Gothic b transformed into the letter H (possibly for ''hart'', German for ''hard'', or just because the Gothic b resembled an H). Therefore, in German music notation, H is used instead of B{{music|natural}} (B-natural), and B instead of B{{music|flat}} (B-flat). Occasionally, music written in German for international use will use H for B-natural and B<sup>b</sup> for B-flat (with a modern-script lower-case b instead of a flat sign). Since a Bes or B{{music|flat}} in Northern Europe (i.e., a B{{music|bb}} elsewhere) is both rare and unorthodox (more likely to be expressed as Heses), it is generally clear what this notation means.
+
+In [[Italian language|Italian]], [[Portuguese language|Portuguese]], [[Spanish language|Spanish]], [[French language|French]], [[Romanian language|Romanian]], [[Greek language|Greek]], [[Albanian language|Albanian]], [[Russian language|Russian]], [[Mongolian language|Mongolian]], [[Flemish]], [[Persian language|Persian]], [[Arabic]], [[Hebrew]], [[Ukrainian language|Ukrainian]], [[Bulgarian language|Bulgarian]], [[Turkish language|Turkish]] and [[Vietnam]] the note names are ''do–re–mi–fa–sol–la–si'' rather than C–D–E–F–G–A–B. These names follow the original names reputedly given by [[Guido d'Arezzo]], who had taken them from the first syllables of the first six musical phrases of a [[Gregorian chant]] melody "[[Ut queant laxis]]", which began on the appropriate scale degrees. These became the basis of the [[solfège]] system. For ease of singing, the name ''ut'' was largely replaced by ''do'' (most likely from the beginning of ''Dominus'', Lord), though ''ut'' is still used in some places. For the seventh degree, the name ''si'' (from ''Sancte Iohannes'', St. John, to whom the hymn is dedicated), though in some regions the seventh is named ''ti''.
+
+The two notation systems most commonly used today are the [[Helmholtz pitch notation]] system and the [[scientific pitch notation]] system. As shown in the table above, they both include several octaves, each starting from C rather than A. The reason is that the most commonly used scale in Western music is the [[major scale]], and the sequence C–D–E–F–G–A–B–C (the [[C major]] scale) is the simplest example of a major scale. Indeed, it is the only major scale that can be obtained using [[natural note]]s (the white keys on the piano keyboard) and is typically the first musical scale taught in music schools.
+
+In a newly developed system, primarily in use in the United States, notes of scales become independent of music notation. In this system the natural symbols C–D–E–F–G–A–B refer to the absolute notes, while the names ''do–re–mi–fa–so–la–ti'' are relativized and show only the relationship between pitches, where ''do'' is the name of the base pitch of the scale (the tonic), ''re'' is the name of the second degree, etc. The idea of this so-called "movable do," first suggested by [[John Curwen]] in the 19th century, was fully developed and involved into a whole educational system by [[Zoltán Kodály]] in the middle of the 20th century, which system is known as the [[Kodály method]] or Kodály concept.
+
+== See also ==
+*[[Ghost note]]
+*[[Grace note]]
+*[[Musical tone]]
+*[[Pensato]]
+*[[Shape note]]
+*[[Universal key]]
+
+== References ==
+<references />
+
+== Bibliography ==
+*{{cite book|last=Nattiez|first=Jean-Jacques|author-link=Jean-Jacques Nattiez|year=1990|title=Music and Discourse: Toward a Semiology of Music|trans-title=Musicologie générale et sémiologie|orig-year=1987|translator=[[Carolyn Abbate]]|isbn=0-691-02714-5}}
+
+== External links ==
+{{commons category|Musical notes}}
+*[http://www.phys.unsw.edu.au/music/note/ Converter: Frequencies to note name, ± cents]
+*[http://www.phys.unsw.edu.au/jw/notes.html Note names, keyboard positions, frequencies and MIDI numbers]
+*[http://www.sengpielaudio.com/calculator-notenames.htm Music notation systems − Frequencies of equal temperament tuning – The English and American system versus the German system]
+*[https://web.archive.org/web/20081219095621/http://www.adamsatoms.com/notes/ Frequencies of musical notes]
+*[https://blog.sheetmusicplus.com/2015/12/30/learn-how-to-read-sheet-music-notes/ Learn How to Read Sheet Music]
+
+{{Musical notation}}
+{{Consonance and dissonance}}
+{{Harmony}}
+{{Authority control}}
+[[Category:Musical notation]]

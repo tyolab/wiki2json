@@ -12,6 +12,8 @@ HEADERS = $(wildcard $(HEADERDIR)/*.h) \
 
 CC := g++
 
+EXTRAS := -DDEBUG
+
 CFLAGS  := -std=c++11 -I$(HEADERDIR) -I$(SRCDIR) -Istpl/stpl $(EXTRAS)
 
 LDFLAGS := 

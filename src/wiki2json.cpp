@@ -29,12 +29,8 @@ using namespace std;
 using namespace stpl;
 using namespace stpl::WIKI;
 
-typedef WIKI::WikiParser<icstring, FileStream<>::iterator> parser_type;
-int Atom::counter = 0;
 
-string WikiEntityVariables::host = "localhost";
-string WikiEntityVariables::protocol = "http";
-string WikiEntityVariables::path = "/";
+typedef WIKI::WikiParser<icstring, FileStream<>::iterator> parser_type;
 
 string get_entity_info(int group, int type) {
     string value;
@@ -80,15 +76,20 @@ void print_unknow_option(const char *unknown) {
 
 void print_usage(const char *program) {
         std::cout
-            << "Usage: " << program << " /a/path/to/wiki.txt [--html] [--protocol http] [--host localhost] [--path /]"
+            << "Usage: " << program << " /a/path/to/wiki.txt [--html|tyokiie|text] [--protocol http] [--host localhost] [--path /]"
             << std::endl
             ;
 }
 
 int main(int argc, char** argv) {
+
+    WikiEntityVariables::html_head = "<!-- Created with wiki2json by Eric Tang @ TYO Lab, https://tyo.com.au) -->\n \
+					<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>\n \
+                    <script src=\"js/jquery-3.6.0.min.js\"></script>";
+
     if (argc > 1) {
         string file_name = argv[1];
-        bool to_html = false;
+        int to_what = 0;
 
         const char *unknown = NULL;
         for (int i = 2; i < argc; ++i) {
@@ -100,8 +101,14 @@ int main(int argc, char** argv) {
             }
 
             if (!strcmp(argv[i], "--html")) {
-                to_html = true;
+                to_what = 1;
             }
+            else if (!strcmp(argv[i], "--text")) {
+                to_what = 2;
+            }
+            else if (!strcmp(argv[i], "--tyokiie")) {
+                to_what = 3;
+            }                        
             else if (!strcmp(argv[i], "--protocol")) {
                 ++i;
                 if (i < argc)
@@ -131,19 +138,29 @@ int main(int argc, char** argv) {
             << "Parsing "
             << file_name << endl;
         FileStream<> file_stream(file_name.c_str());
+        Atom::max_id = 2 * (file_stream.end() - file_stream.begin()) + 1;
 
         parser_type parser(file_stream.begin(), file_stream.end());
         parser_type::document_type& doc = parser.parse();
 
         std::cerr << "Total nodes: " << doc.size() << std::endl;
 
-        if (to_html) {    
+        if (!to_what) {    
             // convert text to html rather than json
+            std::cout << doc.to_json();
+        }
+        else if (to_what == 1) {
             std::cout << doc.to_html();
         }
-        else if (argc == 2) {
-            
-            std::cout << doc.to_json();
+        else if (to_what == 2) {
+            std::cout << doc.to_text();
+        }
+        else if (to_what == 3) {
+            std::cout << doc.to_tyokiie();
+        }                
+        else {
+            std::cerr << "I don't know what format you what" << std::endl;
+            print_usage(argv[0]);
         }
     }
     else {

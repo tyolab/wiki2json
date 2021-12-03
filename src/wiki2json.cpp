@@ -83,9 +83,11 @@ void print_usage(const char *program) {
 
 int main(int argc, char** argv) {
 
-    WikiEntityVariables::html_head = "<!-- Created with wiki2json by Eric Tang @ TYO Lab, https://tyo.com.au) -->\n \
+    WikiEntityVariables::html_head = "<!-- Created with wiki2json by Eric Tang@TYO Lab, https://tyo.com.au) -->\n \
+                    <!-- Follow me: https://twitter.com/_e_tang) -->\n \
 					<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>\n \
-                    <script src=\"js/jquery-3.6.0.min.js\"></script>";
+                    <script src=\"js/jquery-3.6.0.min.js\"></script> \
+                    <script src=\"js/tyokiie.js\"></script>";
 
     if (argc > 1) {
         string file_name = argv[1];

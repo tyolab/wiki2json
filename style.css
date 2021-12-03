@@ -66,6 +66,7 @@
 
   span[type="link"]:hover {
     --underline-color: #09123a;
+    cursor: pointer;
   }
 
   span[type="link"][visited="yes"] {
